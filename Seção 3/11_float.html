@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="pt-br"> 
+
+    <head> <!--este conteudo não aparece na pagina-->
+        <title>Pagina de exemplo de estrutura basica</title>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Daniel"> 
+        <meta name="description" content="lista de documentos"> 
+        <meta name="keywords" content="html5, tecnologia"> 
+
+        <style>
+            #container{
+                width: 80%;
+                padding: 15px;
+                background: #ccc;
+            }
+            #container div{
+                width: 150px;
+                height: 50px;
+                border: 2px solid red;
+                margin: 5px;
+            }
+            #div2{
+                float: right;
+            }
+            #div3{
+                clear: both;
+            }
+            header{
+                background: #ccc;
+                height: 50px;
+            }
+            nav{
+                width: 25%;
+                height: 80px;
+                background: orange;
+                float: left;
+            }
+            main{
+                width: 70%;
+                height: 100px;
+                background: yellow;
+                float: right;
+            }
+            footer{
+                height: 50px;
+                background: blue;
+                clear: both;
+            }
+        </style>
+
+    </head>
+
+    <body> <!--conteudo da pagina-->
+        <h1>Float</h1>
+        <div id="container">
+            <div id="div1">div1</div>
+            <div id="div2">div2</div>
+            <div id="div3">div3</div>
+        </div>
+        <hr>
+        <header>header</header>
+        <nav>nav</nav>
+        <main>main</main>
+        <footer>footer</footer>
+
+    </body>
+</html> 
