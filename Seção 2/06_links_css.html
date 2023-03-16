@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="pt-br"> 
+
+    <head> <!--este conteudo não aparece na pagina-->
+        <title>Links CSS</title>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Daniel"> 
+        <meta name="description" content="lista de documentos"> 
+        <meta name="keywords" content="html5, tecnologia"> 
+
+        <style> /*ou então usar body{font-family}para modificar tudo dentro do body*/
+            a, li, p{ 
+                font-family: arial;
+            } 
+
+            a{ /*para modificar um link deve ser feito individualmente*/
+                color:red;
+            }
+            a:hover{
+                background-color:pink;
+            }
+            a:visited{
+                color:blue;
+            }
+            a:active{
+                color:purple;
+            }
+            ul li{
+                list-style-type:circle;
+                list-style-position: inside;
+            }
+            ol li{
+                list-style-type: upper-roman;
+            }
+        </style>
+    </head>
+
+    <body> <!--conteudo da pagina-->
+        <a href="05_início_css.html">veja meu site</a> |
+        <a href="01_teste1.html">veja o inicio de tudo</a>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+
+        <p>parágrafo</p>
+    
+    </body>
+</html> 
