@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="pt-br"> 
+
+    <head> 
+        <title>Box-shadow</title>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Milene"> 
+        <meta name="description" content="descrição"> 
+        <meta name="keywords" content="html5, tecnologia"> 
+
+        <style>
+            #radius1{
+                background: orange;
+                width: 200px;
+                height: 200px;
+                margin: 50px auto;
+
+                border-radius: 50px;
+
+                box-shadow: 10px 10px 0 black;
+            }
+
+            #radius2{
+                background: red;
+                width: 200px;
+                height: 200px;
+                margin: 50px auto;
+
+                border-radius: 50px 20px 100px 0;
+
+                box-shadow: -10px -10px 0 black;
+            }
+
+            #radius3{
+                background:green;
+                width: 200px;
+                height: 200px;
+                margin: 50px auto;
+
+                border-radius: 50px 20px 100px 0 / 20px 50px 80px 0;
+
+                box-shadow: 10px 10px 10px black;
+            }
+
+            #radius4{
+                background: blue;
+                width: 200px;
+                height: 200px;
+                margin: 50px auto;
+
+                border-radius: 50px 20px 50px 20px / 20px 50px 20px 50px;
+
+                box-shadow: -10px 10px 10px 15px black;
+            }
+
+            #radius5{
+                background: purple;
+                width: 200px;
+                height: 200px;
+                margin: 50px auto;
+
+                border-radius: 50px 50px 0 0 / 50px 50px 0 0;
+
+                box-shadow: 5px 0 10px 5px black, 20px 20px 0 pink, -5px -5px 0 10px palevioletred;
+            }
+
+            h1{
+                font-family: sans-serif;
+                font-size: 50px;
+                text-align: center;
+                text-shadow: -10px 10px 0 #ccc;
+            }
+            
+        </style>
+    </head>
+
+    <body> 
+        <h1>Efeitos CSS</h1>
+        <div id="radius1"></div>
+        <div id="radius2"></div>
+        <div id="radius3"></div>
+        <div id="radius4"></div>
+        <div id="radius5"></div>
+    </body>
+</html> 
